@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="XSS classification model, Types of Cross-Site Scripting">
+  <meta name="keywords" content="XSS,classification,model,type">
+  <meta name="author" content="noraj (Alexandre ZANNI)">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XSS classification model</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1"></script>
+  <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels@1.1.0/src/chartjs-plugin-labels.js"></script>
+  <style>
+    body {
+      background-color: rgb(24, 26, 27);
+    }
+    #author {
+      color: rgb(84, 91, 95);
+    }
+    span a {
+      color: orangered;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="xss" height="130%"></canvas>
+  <script src="js/xss_chart.js"></script>
+  <span id='author'>Made by <a href="https://pwn.by/noraj/">noraj</a> (Alexandre ZANNI)</span>
+</body>
+</html>
