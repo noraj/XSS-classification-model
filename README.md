@@ -4,7 +4,9 @@
 
 [[Website]](https://noraj.github.io/XSS-classification-model/)
 
-![](docs/preview.png)
+![](docs/preview-full.png)
+
+![](docs/preview-simplified.png)
 
 ### References
 
